@@ -5,7 +5,7 @@ import requests
 import re
 from bs4 import BeautifulSoup
 
-PAGE_URL = 'http://google.com'
+PAGE_URL = 'http://google.com' #Website goes here..
 
 def get_html_of(url):
     resp = requests.get(url)
